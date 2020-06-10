@@ -1,11 +1,26 @@
-.copyright{
-    clear: both;
-    padding-top: 50px;
+footer {
+    position: fixed;
+    width: 100%;
     text-align: center;
+    left: 0;
+    bottom: 0;
     color: blue;
 }
 
+nav {
+    background-color: #e3f2fd;
+}
 
+main {
+    margin-top: 25px;
+}
+body {
+    background-image: url(https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95d5d0ed1.png);
 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: ;
+}
 
 
