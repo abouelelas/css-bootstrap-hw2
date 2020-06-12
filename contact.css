@@ -1,13 +1,15 @@
 
 nav {
     background-color: #0c1329;
-    padding-bottom: 10 px;
+    padding: 10 px;
+    justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: medium;
 }
 
 main {
     margin-top: 25px;
+    background-origin: padding-box;
 }
 body {
    font-weight: bold;
@@ -26,7 +28,7 @@ footer {
     text-align: center;
     left: 0;
     bottom: 0;
-    padding: 10px;
+    padding: 0px;
     color: blue;
     border: 5px navy;
 
