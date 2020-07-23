@@ -17,6 +17,8 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/portfolio.css" />
+    <link rel="stylesheet" href="assets/contact.css" />
     <title>Responsive Portfolio</title>
 </head>
 <body>
@@ -25,12 +27,12 @@
             <h1><a class="nav-link" href="index.html">Sarah Abouelela</a></h1>
             <ul class="nav justify-content-end">
                 <li><a class="nav-link" href="index.html">Home</a></li>
-                <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                <li><a class="nav-link" href="contact.html">Contact</a></li>
+                <li><a class="nav-link" href="#portfolio-link">Portfolio</a></li>
+                <li><a class="nav-link" href="#contact-form">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main class="container">
+    <!-- <main class="container"> -->
         <div class="card mb-4" style="max-width: 500px;">
             <div class="row no-gutters">
                 <div class="col-md-4">
@@ -57,17 +59,101 @@
         </div>
         <div class="wrapper">
             <section id="main-content">
-                <div class="col-sm-4">
+                <!-- <div class="col-sm-4">
+                </div> -->
+            </section>
+            </div>
+        
+                    <main id="portfolio-link">
+                        <div class="card-deck">
+                            <div class="card">
+                                <img src="Assets/Images/edupic1.jpg" class="card-img-top" alt="education pic">
+                                <div class="card-body">
+                                    <h5 class="card-title">Portfolio 1</h5>
+                                    <p class="card-text"> Please take a look at this.</p>
+                                    <p class="card-text"><small class="text-muted">Date</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Assets/Images/edupic2.jpg" class="card-img-top" alt="education pic">
+                                <div class="card-body">
+                                    <h5 class="card-title">Portfolio 2</h5>
+                                    <p class="card-text">Please take a look at this.</p>
+                                    <p class="card-text"><small class="text-muted">Date</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Assets/Images/elearning.jpg" class="card-img-top" alt="e-learning">
+                                <div class="card-body">
+                                    <h5 class="card-title">Portfolio 3</h5>
+                                    <p class="card-text">Please take a look at this.</p>
+                                    <p class="card-text"><small class="text-muted">Date</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                    <form id="contact-form" method="post" action="contact.php">
+                        <div class="messages"></div>
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">First Name *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" required="required"
+                                            data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Last Name *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" required="required"
+                                            data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" required="required"
+                                            data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone">Phone</label>
+                                        <input id="form_phone" type="tel" name="phone" class="form-control">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">Message *</label>
+                                        <textarea id="form_message" name="message" class="form-control" rows="4" required="required"
+                                            data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                     <!--Footer-->
-                    <footer class = "copyright">
-                        <div  class= “container”>
+                    <footer class="copyright">
+                        <div class="container">
                             Copyright &copy; Sarah Abouelela 2020
                         </div>
                     </footer>
-                </div>
-            </section>
-        </div>
-    </main>
+             
+        
+    <!-- </main> -->
 </body>
 
 </html>
