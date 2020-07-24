@@ -6,7 +6,59 @@ nav {
     font-size: medium;
    
 }
+.card mb-4{
+  padding-bottom: 100px;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}
+.card-img{
+  animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}
+.carousel {
+  transition: transform 3s ease;
+  align-items: center;
+  opacity: .5s ease-out;
+  width: 100%;
+  height: 450px;
+  text-align: center;
+}
+.carousel-slide{
+  text-shadow: cadetblue;
+}
+.card-title{
+  color: #0c1329;
+  font-weight: bold;
+  font-size: x-large;
+  padding-bottom: 50px;
+}
+ #contact-button {
+  background-color: rgb(77, 152, 223);
 
+}
+.carousel-inner{
+align-items: center;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #0c1329;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: large;
+  
+  letter-spacing: 1px;
+}
+form {
+  padding-top: 50px ;
+  margin-top: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+.contact-icons {
+  color: rgb(77, 152, 223);
+}
 
 body {
    font-weight: bold;
