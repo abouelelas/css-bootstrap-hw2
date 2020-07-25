@@ -26,6 +26,10 @@ nav {
 .carousel-slide{
   text-shadow: cadetblue;
 }
+
+.project-caption{
+  background-color: rgba(255,255,255,0.5);
+}
 .card-title{
   color: #0c1329;
   font-weight: bold;
