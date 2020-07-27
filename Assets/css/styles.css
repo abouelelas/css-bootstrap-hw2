@@ -10143,7 +10143,7 @@ header.masthead {
   text-align: center;
   color:  rgb(230, 214, 35);
   opacity: 0.8;
-  background-image: url("../assets/img/computer-bg.jpg");
+  background-image: url("./assets/img/computer-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10452,7 +10452,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #657280;
-  background-image: url("../assets/img/contact-background.jpg");
+  background-image: url("./assets/img/contact-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
