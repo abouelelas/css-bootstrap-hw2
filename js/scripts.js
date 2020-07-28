@@ -54,6 +54,6 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
-// $("#sendMessageButton").on("change", function(event){
-//     $("#email-for-class").attr("href", 'mailto:abouelelas@gmail.com?' + jQuery.param({body:   $('#body-for-email').val(), subject: "My first email"}));
-//     });
+$("#sendMessageButton").on("change", function(event){
+    $("#email-for-class").attr("href", 'mailto:abouelelas@gmail.com?' + jQuery.param({body:   $('#body-for-email').val(), subject: "My first email"}));
+    });
