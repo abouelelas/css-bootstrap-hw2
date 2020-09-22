@@ -10146,9 +10146,13 @@ header.masthead {
   background-image: url("../assets/img/background5.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
+
+
+
 header.masthead-heading {
   color: #AB184E
 }
@@ -10189,6 +10193,10 @@ header.masthead .masthead-heading {
   max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
+  transition: transform 1s linear;
+}
+#portfolio .portfolio-item:hover{
+  transform: rotateY(40deg);
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
